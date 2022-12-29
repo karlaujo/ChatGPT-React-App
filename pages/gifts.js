@@ -57,8 +57,6 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <body>
-          <i class="fas fa-gifts"></i></body>
         <h3>Christmas Gift Generator 🎁🎄</h3>
         <form onSubmit={onSubmit}>
           <label>Gender</label>
