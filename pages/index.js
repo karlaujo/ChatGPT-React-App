@@ -1,3 +1,3 @@
-import Gifts from './gifts';
+import Gifts from "./gifts";
 
 export default Gifts;
