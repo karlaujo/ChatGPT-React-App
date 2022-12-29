@@ -8,10 +8,10 @@ import styles from "./index.module.css";
 const element = <FontAwesomeIcon icon="fas fa-gifts" size="6x" />
 
 export default function Home() {
-  const [gender, setGender] = useState('man');
-  const [age, setAge] = useState('30');
-  const [priceMin, setPriceMin] = useState('25');
-  const [priceMax, setPriceMax] = useState('100');
+  const [gender, setGender] = useState('');
+  const [age, setAge] = useState('');
+  const [priceMin, setPriceMin] = useState('');
+  const [priceMax, setPriceMax] = useState('');
   const [hobbies, setHobbies] = useState("");
 
   const [loading, setLoading] = useState(false);
@@ -67,6 +67,7 @@ export default function Home() {
           >
             <option value="man">Man</option>
             <option value="woman">Woman</option>
+            <option value="person">Other</option>
           </select>
 
           <label>Age</label>
