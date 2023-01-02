@@ -52,7 +52,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>OpenAI Quickstart</title>
+        <title>ChatGPT Christmas Generator</title>
         <link rel="icon" href="/gift.webp" />
       </Head>
 
